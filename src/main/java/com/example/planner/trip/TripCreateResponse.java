@@ -1,2 +1,6 @@
-package com.example.planner.trip;public record TripCreateResponse() {
+package com.example.planner.trip;
+
+import java.util.UUID;
+
+public record TripCreateResponse(UUID tripId) {
 }
