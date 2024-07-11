@@ -1,9 +1,9 @@
 package com.example.planner.trip;
 
-import com.example.planner.activities.ActivityData;
-import com.example.planner.activities.ActivityRequestPayload;
-import com.example.planner.activities.ActivityResponse;
-import com.example.planner.activities.ActivityService;
+import com.example.planner.activity.ActivityData;
+import com.example.planner.activity.ActivityRequestPayload;
+import com.example.planner.activity.ActivityResponse;
+import com.example.planner.activity.ActivityService;
 import com.example.planner.participant.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
